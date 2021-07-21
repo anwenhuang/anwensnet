@@ -8,7 +8,7 @@ directory. Note that the file name must follow naming convention
 
 For Markdown syntax, please see: 
 
-[https://guides.github.com/features/mastering-markdown/][(https://guides.github.com/features/mastering-markdown/)
+[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 This website uses Jekyll Sinai theme. For Sinai document, please see:
 
@@ -27,7 +27,8 @@ Visit `http://localhost:4000` in the browser to see the rendered website.
 ## Publish
 
 This website is hosted on gitlab, with a CI/CD pipeline set up to automatically
-publish whenever there is an update to the main branch.
+publish whenever there is an update to the main branch. The CI/CD pipeline is
+configured by `.gitlab-ci.yml`
 
 To publish the changes, simply commit and push the changes. For a quick guide
 to git commands, please see [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
