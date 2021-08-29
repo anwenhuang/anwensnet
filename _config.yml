@@ -19,7 +19,7 @@ instagram:
 
 markdown:  kramdown
 permalink: pretty
-paginate:  12
+paginate:  144
 sass:
   style: compressed
 

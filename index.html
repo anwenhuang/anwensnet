@@ -4,14 +4,48 @@ layout: default
 
 <div class='o-wrapper'>
 
-  <div class='o-grid js-grid'>
-    {% for post in paginator.posts %}
-      {% include post-card.html %}
-    {% endfor %}
-  </div>
-
   <div class='o-grid'>
-    {% include pagination.html %}
-  </div>
+    <div class='o-grid__col o-grid__col--center o-grid__col--2-3-m'>
+      <article class='c-post'>
+
+        <div class='c-content'>
+
+<h2><i>"I am only passionately curious,"</i></h2>
+<p>
+Albert Einstein once said.
+Now, I'm not Einstein — my name's Anwen Huang and I'm from the Bay Area. But I do share one thing in common with him: I'm curious. Passionately so. And you've landed in the perfect place to see what I mean.
+<p>
+Here, you can explore my curiosities and loves. So...what are you waiting for? Let's get started!
+
+</div>
+</article>
+</div>
+</div>
+
+<div class='o-grid js-grid'>
+  {% assign post_image="/images/posts/homepageeasterncopy.jpg" %}
+  {% assign post_url="/tag/eastern-art" %}
+  {% assign post_title="Eastern Art" %}
+  {% assign post_summary="Using horse hair brushes and Chinese watercolors, I've painted flowers, mountains, animals, and more, all on rice paper. Click here to explore my Eastern art!" %}
+  {% include landing-page-card.html %}
+
+  {% assign post_image="/images/posts/homepagewesterncopy.jpg" %}
+  {% assign post_url="/tag/western-art" %}
+  {% assign post_title="Western Art" %}
+  {% assign post_summary="My Western Art covers a wide range of subjects — and mediums — click here to explore my oil paintings, graphite drawings, colored pencil work, and more!" %}
+  {% include landing-page-card.html %}
+
+  {% assign post_image="/images/posts/homepagejournalismcopy.jpg" %}
+  {% assign post_url="/tag/journalism" %}
+  {% assign post_title="Journalism" %}
+  {% assign post_summary="As part of my school's newspaper, I've written articles on everything — from boba (yes, really) to my own name and virtual science labs — click here to check them out!" %}
+  {% include landing-page-card.html %}
+
+  {% assign post_image="/images/posts/homepagestatcopy.jpg" %}
+  {% assign post_url="/tag/publications" %}
+  {% assign post_title="Publications" %}
+  {% assign post_summary="I'm passionate about using statistics to help interpret our world, whether that be analyzing consumer data to drawing conjectures from a survey. Click here to read publications I've written as a part of my statistical research!" %}
+  {% include landing-page-card.html %}
+</div>
 
 </div>

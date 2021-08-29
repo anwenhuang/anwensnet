@@ -1,0 +1,37 @@
+<div class='js-grid__col o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-4-l js-post-card-wrap'>
+
+  <div class='c-post-card'>
+    {% if post_image %}
+      <div class='c-post-card__media'>
+        <a href='{{ post_url | prepend: site.baseurl }}' class='c-post-card__image-link' aria-hidden='true' tabindex='-1'>
+          <img src='{{ post_image | prepend: site.baseurl }}' class='c-post-card__image js-fadein' alt='{{ post_title }}'>
+          {% if post_featured %}
+            <span title='{{t "Featured Post" }}'>
+              <span class='c-post-card--featured__icon' data-icon='ei-star' data-size='s'></span>
+            </span>
+          {% endif %}
+        </a>
+      </div>
+    {% endif %}
+
+    <div class='c-post-card__content {% unless post_image %} c-post-card__content--no-image {% endunless %}'>
+      <div class='c-post-card__meta'>
+        <time class='c-post-card__date' datetime="{{ post_date | date_to_xmlschema }}" title="{{ post_date | date: '%d %b %Y' }}">{{ post_date | date: '%d %b %Y' }}</time>
+        <div class='c-post-card__tags'>
+          {% for tag in post_tags limit:1 %}
+          .  <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <h2 class='c-post-card__title'>
+        <a href='{{ post_url | prepend: site.baseurl }}' class='c-post-card__title-link'>
+          {{ post_title }}
+        </a>
+      </h2>
+
+      {{ post_summary }}
+    </div>
+  </div>
+
+</div>

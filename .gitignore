@@ -5,3 +5,4 @@ _site
 .bundle
 /vendor
 /public
+.DS_Store
