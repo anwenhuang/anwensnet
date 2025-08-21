@@ -4,7 +4,7 @@ title: Publications
 permalink: /tag/publications/
 ---
 
-<div style="column-count: 3; column-gap: 20px; column-fill: auto; width: 95vw; max-width: none; margin: 0 auto; padding: 0 2.5vw;">
+<div style="column-count: 3; column-gap: 20px; column-fill: auto; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; box-sizing: border-box;">
 {% for post in site.posts %}
   {% if post.tags contains "Publications" %}
     <div style="break-inside: avoid; margin-bottom: 20px; display: inline-block; width: 100%;">
