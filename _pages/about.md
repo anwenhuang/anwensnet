@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Story
+title: About
 image: '/images/pages/aboutcopy.jpg'
 ---
 ### Everything has a backstory, and my interests are no exception.
