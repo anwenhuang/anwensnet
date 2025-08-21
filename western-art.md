@@ -1,10 +1,20 @@
 ---
-layout: page
+layout: default
 title: Western Art
 permalink: /tag/western-art/
 ---
 
-<div style="column-count: 3; column-gap: 20px; column-fill: auto; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; box-sizing: border-box;">
+<div class="c-page-hero">
+  <div class="o-grid">
+    <div class="o-grid__col">
+      <div class="c-page-hero__content c-page-hero__content--no-image">
+        <h1 class="c-page-hero__title">Western Art</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="column-count: 3; column-gap: 20px; column-fill: auto; width: 95%; margin: 0 auto; padding: 20px 0;">
 {% for post in site.posts %}
   {% if post.tags contains "Western Art" %}
     <div style="break-inside: avoid; margin-bottom: 20px; display: inline-block; width: 100%;">
