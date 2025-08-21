@@ -4,9 +4,8 @@ title: Publications
 permalink: /tag/publications/
 ---
 
-<div class="c-archive">
-  <h1 class="c-archive__title">Publications</h1>
-  <p class="c-archive__description">I'm passionate about using statistics to help interpret our world, whether that be analyzing consumer data or drawing conjectures from a survey.</p>
+<div style="text-align: center; margin-bottom: 48px;">
+  <h1 style="font-size: 32px; margin-bottom: 0;">Publications</h1>
 </div>
 
 <div class="o-grid js-grid">

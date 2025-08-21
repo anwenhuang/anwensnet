@@ -4,9 +4,8 @@ title: Western Art
 permalink: /tag/western-art/
 ---
 
-<div class="c-archive">
-  <h1 class="c-archive__title">Western Art</h1>
-  <p class="c-archive__description">My Western Art covers a wide range of subjects and mediums - oil paintings, graphite drawings, colored pencil work, and more!</p>
+<div style="text-align: center; margin-bottom: 48px;">
+  <h1 style="font-size: 32px; margin-bottom: 0;">Western Art</h1>
 </div>
 
 <div class="o-grid js-grid">

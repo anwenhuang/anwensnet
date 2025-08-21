@@ -1,14 +1,27 @@
 ---
 layout: page
-title: About
+title: Contact
 ---
 
-<div style="text-align: center; padding: 64px 32px;">
-  <h1 style="margin-bottom: 24px;">About</h1>
-  <p style="font-size: 18px; color: #666; max-width: 600px; margin: 0 auto;">
-    You can learn more about me and explore my work through the sections above.
+<div style="text-align: center; margin-bottom: 48px;">
+  <h1 style="font-size: 32px; margin-bottom: 0;">Contact</h1>
+</div>
+
+<div style="text-align: center; padding: 32px; max-width: 600px; margin: 0 auto;">
+  <p style="font-size: 18px; margin-bottom: 32px; line-height: 1.6;">
+    Hi there! Thanks for exploring my work.
   </p>
-  <div style="margin-top: 32px;">
-    <a href="{{ site.baseurl }}/" style="color: #000; text-decoration: none; border-bottom: 1px solid #000;">← Back to Home</a>
+  
+  <p style="font-size: 16px; margin-bottom: 24px; color: #666;">
+    If you'd like to connect, I'd love to hear from you:
+  </p>
+  
+  <div style="margin-bottom: 24px;">
+    <p style="margin-bottom: 12px;">
+      📧 <a href="mailto:anwen@berkeley.edu" style="color: #000; text-decoration: none; border-bottom: 1px solid #000;">anwen@berkeley.edu</a>
+    </p>
+    <p style="margin-bottom: 0;">
+      💼 <a href="https://www.linkedin.com/in/anwenhuang" target="_blank" style="color: #000; text-decoration: none; border-bottom: 1px solid #000;">LinkedIn Profile</a>
+    </p>
   </div>
 </div>

@@ -4,9 +4,8 @@ title: Eastern Art
 permalink: /tag/eastern-art/
 ---
 
-<div class="c-archive">
-  <h1 class="c-archive__title">Eastern Art</h1>
-  <p class="c-archive__description">Using horse hair brushes and Chinese watercolors, I've painted flowers, mountains, animals, and more, all on rice paper.</p>
+<div style="text-align: center; margin-bottom: 48px;">
+  <h1 style="font-size: 32px; margin-bottom: 0;">Eastern Art</h1>
 </div>
 
 <div class="o-grid js-grid">
