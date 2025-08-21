@@ -4,14 +4,14 @@ title: Western Art
 permalink: /tag/western-art/
 ---
 
-<div class="o-grid js-grid">
+<div class="o-grid js-grid" style="display: flex; flex-wrap: wrap; align-items: flex-start;">
 {% for post in site.posts %}
   {% if post.tags contains "Western Art" %}
-    <div class="o-grid__col o-grid__col--1-3-l o-grid__col--1-2-m">
-      <article class="c-post-card">
+    <div style="flex: 0 0 auto; width: 300px; margin: 20px; max-width: calc(50% - 40px);">
+      <article class="c-post-card" style="margin-bottom: 0;">
         <div class="c-post-card__media">
           <a class="c-post-card__image-link" href="{{ post.url | relative_url }}">
-            <img class="c-post-card__image" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            <img class="c-post-card__image" src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: auto; object-fit: cover;">
           </a>
         </div>
         <div class="c-post-card__content">
