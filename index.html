@@ -23,31 +23,25 @@ layout: default
 
 </div>
 
-<div class='o-wrapper'>
-<div style='display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto;'>
-  <div style='flex: 0 1 350px;'>
-    {% assign post_image="/images/posts/homepageeasterncopy.jpg" %}
-    {% assign post_url="/tag/eastern-art" %}
-    {% assign post_title="Eastern Art" %}
-    {% assign post_summary="I've been practicing Chinese brush painting for over a decade now. This art form uses animal hair brushes to apply ink and watercolors to rice paper." %}
-    {% include landing-page-card.html %}
-  </div>
+<div class='o-wrapper' style='text-align: center;'>
+<div class='o-grid js-grid'>
+  {% assign post_image="/images/posts/homepageeasterncopy.jpg" %}
+  {% assign post_url="/tag/eastern-art" %}
+  {% assign post_title="Eastern Art" %}
+  {% assign post_summary="I've been practicing Chinese brush painting for over a decade now. This art form uses animal hair brushes to apply ink and watercolors to rice paper." %}
+  {% include landing-page-card.html %}
 
-  <div style='flex: 0 1 350px;'>
-    {% assign post_image="/images/posts/homepagewesterncopy.jpg" %}
-    {% assign post_url="/tag/western-art" %}
-    {% assign post_title="Western Art" %}
-    {% assign post_summary="My Western Art covers a wide range of subjects and mediums, such as oil paint, graphite, and colored pencil." %}
-    {% include landing-page-card.html %}
-  </div>
+  {% assign post_image="/images/posts/homepagewesterncopy.jpg" %}
+  {% assign post_url="/tag/western-art" %}
+  {% assign post_title="Western Art" %}
+  {% assign post_summary="My Western Art covers a wide range of subjects and mediums, such as oil paint, graphite, and colored pencil." %}
+  {% include landing-page-card.html %}
 
-  <div style='flex: 0 1 350px;'>
-    {% assign post_image="/images/posts/publication.jpeg" %}
-    {% assign post_url="/tag/publications" %}
-    {% assign post_title="Publications" %}
-    {% assign post_summary="I'm passionate about applying computation to understanding data, particularly in the medical/healthcare realm. Over the years, I've had the opportunity to work on some really cool research projects!" %}
-    {% include landing-page-card.html %}
-  </div>
+  {% assign post_image="/images/posts/publication.jpeg" %}
+  {% assign post_url="/tag/publications" %}
+  {% assign post_title="Publications" %}
+  {% assign post_summary="I'm passionate about applying computation to understanding data, particularly in the medical/healthcare realm. Over the years, I've had the opportunity to work on some really cool research projects!" %}
+  {% include landing-page-card.html %}
 </div>
 
 </div>
