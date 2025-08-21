@@ -7,7 +7,7 @@ permalink: /tag/eastern-art/
 <div class="o-grid js-grid">
 {% for post in site.posts %}
   {% if post.tags contains "Eastern Art" %}
-    <div class="o-grid__col o-grid__col--1-4-l o-grid__col--1-2-m">
+    <div class="o-grid__col o-grid__col--1-3-l o-grid__col--1-2-m">
       <article class="c-post-card">
         <div class="c-post-card__media">
           <a class="c-post-card__image-link" href="{{ post.url | relative_url }}">
