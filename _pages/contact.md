@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+permalink: /contact/
 ---
 
 <div style="text-align: center; margin-bottom: 48px;">
