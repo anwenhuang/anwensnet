@@ -5,44 +5,43 @@ layout: default
 <div class='o-wrapper'>
 
   <!-- Hero section with photo and intro -->
-  <div class='o-grid' style='margin-bottom: 64px;'>
-    <div class='o-grid__col o-grid__col--1-3-l o-grid__col--center'>
-      <div style='text-align: center; margin-bottom: 32px;'>
-        <img src='/images/pages/aboutcopy.jpg' alt='Anwen Huang' style='width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto; display: block; box-shadow: 0 8px 32px rgba(0,0,0,0.1);'>
+  <div class='o-grid' style='margin-bottom: 48px; align-items: center;'>
+    <div class='o-grid__col o-grid__col--1-3-l'>
+      <div style='text-align: center;'>
+        <img src='{{ site.baseurl }}/images/pages/aboutcopy.jpg' alt='Anwen Huang' style='width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(0,0,0,0.1);'>
       </div>
     </div>
     <div class='o-grid__col o-grid__col--2-3-l'>
-      <div style='display: flex; align-items: center; height: 100%; padding: 32px 0;'>
-        <div>
-          <h1 style='font-size: 32px; margin-bottom: 16px; font-weight: 300;'>Hello! I'm Anwen Huang</h1>
-          <p style='font-size: 18px; line-height: 1.6; color: #666; margin-bottom: 0;'>
-            Welcome to my site, where you can explore my art and publications.
-          </p>
-        </div>
+      <div style='padding-left: 32px;'>
+        <h1 style='font-size: 28px; margin-bottom: 12px; font-weight: 400;'>Hello! I'm Anwen Huang</h1>
+        <p style='font-size: 16px; line-height: 1.5; color: #666; margin-bottom: 0;'>
+          Welcome to my site, where you can explore my art and publications.
+        </p>
       </div>
     </div>
   </div>
 
 </div>
 
+<div class='o-wrapper'>
 <div class='o-grid js-grid'>
   {% assign post_image="/images/posts/homepageeasterncopy.jpg" %}
   {% assign post_url="/tag/eastern-art" %}
   {% assign post_title="Eastern Art" %}
-  {% assign post_summary="Using horse hair brushes and Chinese watercolors, I've painted flowers, mountains, animals, and more, all on rice paper. Click here to explore my Eastern art!" %}
+  {% assign post_summary="I've been practicing Chinese brush painting for over a decade now. This art form uses animal hair brushes to apply ink and watercolors to rice paper." %}
   {% include landing-page-card.html %}
 
   {% assign post_image="/images/posts/homepagewesterncopy.jpg" %}
   {% assign post_url="/tag/western-art" %}
   {% assign post_title="Western Art" %}
-  {% assign post_summary="My Western Art covers a wide range of subjects — and mediums — click here to explore my oil paintings, graphite drawings, colored pencil work, and more!" %}
+  {% assign post_summary="My Western Art covers a wide range of subjects and mediums, such as oil paint, graphite, and colored pencil." %}
   {% include landing-page-card.html %}
 
 
   {% assign post_image="/images/posts/homepagestatcopy.jpg" %}
   {% assign post_url="/tag/publications" %}
   {% assign post_title="Publications" %}
-  {% assign post_summary="I'm passionate about using statistics to help interpret our world, whether that be analyzing consumer data to drawing conjectures from a survey. Click here to read publications I've written as a part of my statistical research!" %}
+  {% assign post_summary="I've had the opportunity to work on some really cool research projects, some of which have already been published." %}
   {% include landing-page-card.html %}
 </div>
 
