@@ -4,14 +4,14 @@ title: Publications
 permalink: /tag/publications/
 ---
 
-<div class="o-grid js-grid">
+<div style="column-count: 3; column-gap: 20px; column-fill: auto;">
 {% for post in site.posts %}
   {% if post.tags contains "Publications" %}
-    <div class="o-grid__col o-grid__col--1-3-l o-grid__col--1-2-m">
-      <article class="c-post-card">
+    <div style="break-inside: avoid; margin-bottom: 20px; display: inline-block; width: 100%;">
+      <article class="c-post-card" style="margin-bottom: 0;">
         <div class="c-post-card__media">
           <a class="c-post-card__image-link" href="{{ post.url | relative_url }}">
-            <img class="c-post-card__image" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            <img class="c-post-card__image" src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: auto;">
           </a>
         </div>
         <div class="c-post-card__content">
