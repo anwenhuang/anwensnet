@@ -4,10 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-<div style="text-align: center; margin-bottom: 48px;">
-  <h1 style="font-size: 32px; margin-bottom: 0;">Contact</h1>
-</div>
-
 <div style="text-align: center; padding: 32px; max-width: 600px; margin: 0 auto;">
   <p style="font-size: 18px; margin-bottom: 32px; line-height: 1.6;">
     Hi there! Thanks for exploring my work.
@@ -22,7 +18,7 @@ permalink: /contact/
       📧 <a href="mailto:anwen@berkeley.edu" style="color: #000; text-decoration: none; border-bottom: 1px solid #000;">anwen@berkeley.edu</a>
     </p>
     <p style="margin-bottom: 0;">
-      💼 <a href="https://www.linkedin.com/in/anwenhuang" target="_blank" style="color: #000; text-decoration: none; border-bottom: 1px solid #000;">LinkedIn Profile</a>
+      💼 <a href="https://www.linkedin.com/in/anwenhuang" target="_blank" style="color: #000; text-decoration: none; border-bottom: 1px solid #000;">My LinkedIn</a>
     </p>
   </div>
 </div>

@@ -4,10 +4,6 @@ title: Publications
 permalink: /tag/publications/
 ---
 
-<div style="text-align: center; margin-bottom: 48px;">
-  <h1 style="font-size: 32px; margin-bottom: 0;">Publications</h1>
-</div>
-
 <div class="o-grid js-grid">
 {% for post in site.posts %}
   {% if post.tags contains "Publications" %}
