@@ -4,7 +4,7 @@ title: Western Art
 permalink: /tag/western-art/
 ---
 
-<div style="column-count: 3; column-gap: 20px; column-fill: auto;">
+<div style="column-count: 3; column-gap: 20px; column-fill: auto; width: 95vw; max-width: none; margin: 0 auto; padding: 0 2.5vw;">
 {% for post in site.posts %}
   {% if post.tags contains "Western Art" %}
     <div style="break-inside: avoid; margin-bottom: 20px; display: inline-block; width: 100%;">
